@@ -1,0 +1,86 @@
+{% extends 'layout.html' %}
+{% include 'navbarl.html' %}
+
+{% block body_block %}
+
+<!--========================================================== -->
+<!-- SLIDER DE IMAGENES-->
+<!--========================================================== -->
+
+<div id="carousel" class="carousel slide" data-bs-ride="carousel"><br/><br/><br/>
+        <center><div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+            <img src="../static/img/Scuatro.jpg " class="d-block " width="1350" height="600" alt="">
+        </div>
+
+
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="../static/img/Sdos.jpg" class="d-block " width="1350" height="600" alt="...">
+        </div>
+
+
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="../static/img/Stres.jpg" class="d-block " width="1350" height="600" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src=../static/img/Suno.jpg" class="d-block " width="1350" height="600" alt="...">
+        </div>
+
+    </center>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- =========================== SECCION INICIO =========================== -->
+
+
+<section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">¿Quienes <span class="text-primary">somos?</span></h1>
+    <p class="p-3  fs-4">
+        <span class="text-primary">LICOURSTORE.</span>
+        Es una empresa dedicada a la venta de vinos, licores y cerveza artesana con amplia experiencia
+        en la venta y distribución de artículos de alta calidad. Nuestra meta es cuidar al máximo a nuestros clientes.
+        Esto hace que nos esforcemos en ofrecer siempre el mejor servicio posible, poniendo a tu disposición una
+        extensa gama de productos a los mejores precios del mercado. Esto es posible gracias a que trabajamos día a día
+        para conseguir una estupenda relación calidad/precio: casi 3000 referencias siempre al precio más barato.
+    </p>
+
+    <h1 class="p-3 fs-2 border-top border-3">Misión </h1>
+    <p class="p-3  fs-4">
+        Brindar a nuestros clientes calidad constante en la atención y el servicio para satisfacer sus necesidades y
+        requerimientos, proporcionando productos de calidad y en buen tiempo.
+    </p>
+
+    <h1 class="p-3 fs-2 border-top border-3">Visión</h1>
+    <p class="p-3  fs-4">
+        Mantener posicionamiento en el mercado como una empresa sólida y competitiva en nuestra actividad comercial.
+    </p>
+
+
+    <h1 class="p-3 fs-2 border-top border-3">Valores de la organización</h1>
+
+    <div Style="text-align:left;" class="p-3  fs-4">
+        <ul>
+            <li>Honestidad</li>
+            <li>Responsabilidad</li>
+            <li>Lealtad</li>
+            <li>Compromiso</li>
+            <li>Respeto</li>
+            <li>Confianza</li>
+            <li>Comunicación</li>
+            <li>Responsabilidad Social</li>
+            <li>Mejora Continua</li>
+    </div>
+
+</section>
+
+
+{% endblock body_block %}
